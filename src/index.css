@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #000000d2;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#error{
+    display: none;
+}
+
+@media (width<=180px)
+{
+    #root{
+        display: none;
+    }
+    #error{
+        display: block;
+    }
+    #error h1{
+        color: aliceblue;
+        font-size: xx-large;
+        text-align: center;
+    }
+}
