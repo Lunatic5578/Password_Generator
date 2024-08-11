@@ -8,4 +8,4 @@ This is a web app made using React+Vite+Tailwind. The Password Generator app has
 <br><br> This web app is completely responsive and is supported in all devices. 
 
 <br>
-<!--<a href="">Click to view</a>-->
+<a href="https://passgeneratorz.netlify.app/">Click to view</a>
